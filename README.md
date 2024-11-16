@@ -24,5 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### What to add
-1. OurPortfolio component - make it using v-for
-2. OurAdvantages component - make it using v-for
+1. make circles in our-servies section
+2. add slider to reviews section and bottom scroll bar
+3. appear animations to hero section
+4. footer
