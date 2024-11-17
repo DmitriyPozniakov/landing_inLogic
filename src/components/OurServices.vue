@@ -4,7 +4,9 @@
         <h2 class="services-heading">What <span class="special-text">we offer</span></h2>
         <div class="offer-list">
             <div v-for="(offer, index) in offers" :key="index" class="offer-list-item">
-                <img :src="offer.image" alt="" class="offer-image">
+                <div class="circle">
+                    <img :src="offer.image" alt="" class="offer-image">
+                </div>
                 <h2 class="offer-heading">{{ offer.title }}</h2>
                 <p class="offer-description">{{ offer.description }}</p>
             </div>
@@ -113,8 +115,18 @@ export default {
     border-right: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.offer-image {
+.circle {
     margin-bottom: 30px;
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer-image {
     height: 24px;
 }
 

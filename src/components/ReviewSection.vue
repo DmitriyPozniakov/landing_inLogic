@@ -70,7 +70,7 @@ export default {
     font-size: 68px;
     color: #000;
     position: relative;
-    margin-bottom: 75px;
+    margin-bottom: 65px;
 }
 
 .review-heading::after {
@@ -90,6 +90,17 @@ export default {
     align-items: center;
     gap: 30px;
     position: relative;
+    margin-bottom: 150px;
+}
+
+.reviews::before {
+    content: '';
+    position: absolute;
+    background-image: url('../assets/images/blob\ 2.svg');
+    background-repeat: no-repeat;
+    height: 150px;
+    inset: 170px 0 0 40px;
+    z-index: -1;
 }
 
 
@@ -97,7 +108,8 @@ export default {
     padding: 30px 35px 20px 35px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 20px;
-    max-width: 430px;
+    max-width: 520px;
+    background-color: #fff;
 }
 
 .review-company {
