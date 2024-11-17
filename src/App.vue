@@ -15,6 +15,13 @@ export default {
 
 <style>
 @font-face {
+  font-family: 'Gilroy-600';
+  src: url('../src/assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Gilroy-500';
   src: url('../src/assets/fonts/Gilroy-Medium.ttf') format('truetype');
   font-weight: normal;
@@ -28,12 +35,6 @@ export default {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Gilroy-600';
-  src: url('../src/assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'Libre Baskerville';
