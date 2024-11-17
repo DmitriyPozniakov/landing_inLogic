@@ -76,6 +76,7 @@ textarea {
     background: #313d2a;
     border: none;
     outline: none;
+    color: #686E64;
 }
 
 textarea {
