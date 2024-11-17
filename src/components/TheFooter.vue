@@ -79,6 +79,11 @@ textarea {
     color: #686E64;
 }
 
+input:focus, 
+textarea:focus {
+    box-shadow: -6px 4px 80px 7px rgba(210, 238, 96, 0.20);
+}
+
 textarea {
     height: 150px;
     resize: none;
