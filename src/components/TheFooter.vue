@@ -59,6 +59,12 @@ textarea {
     resize: none;
 }
 
+input::placeholder, textarea::placeholder {
+    font-family: 'Gilroy-300';
+    font-size: 16px;
+    color: #686E64;
+}
+
 .form-description {
     display: flex;
     justify-content: center;
