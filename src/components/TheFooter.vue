@@ -2,7 +2,7 @@
     <footer>
         <div class="footer-top">
             <div class="footer-article">
-                <h2 class="footer-heading">Ready to scale your project to the next level?</h2>
+                <h2 class="footer-heading">Ready to scale your project to the next level? <span><img src="../assets/images/star_lightGreen.svg" alt=""></span></h2>
                 <p class="footer-description">Lets' take your project to new heights, reach out and see how we can help
                     you.</p>
             </div>
@@ -19,10 +19,21 @@
                     <label for="">Describe a project</label>
                     <textarea rows="10" placeholder="Description"></textarea>
                 </div>
+                <base-button text="Contact us" class="action-button">
+                    Contact us
+                    <img src="../assets/images/arrow.svg" alt="">
+                </base-button>
             </form>
         </div>
     </footer>
 </template>
+
+<script>
+import BaseButton from './BaseButton.vue';
+export default {
+    components: { BaseButton }
+}
+</script>
 
 <style scoped>
 footer {
@@ -32,7 +43,14 @@ footer {
 
 .footer-top {
     display: flex;
+    justify-content: space-evenly;
     gap: 85px;
+}
+
+.footer-article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 form {
@@ -44,9 +62,15 @@ form {
     border-radius: 28px;
     box-shadow: -6px 4px 80px 7px rgba(210, 238, 96, 0.20);
     width: 500px;
+    min-height: 660px;
 }
 
-input, textarea {
+.action-button {
+    align-self: center;
+}
+
+input,
+textarea {
     padding: 20px 12px;
     border-radius: 12px;
     background: #313d2a;
@@ -59,7 +83,8 @@ textarea {
     resize: none;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
     font-family: 'Gilroy-300';
     font-size: 16px;
     color: #686E64;
@@ -91,7 +116,7 @@ input::placeholder, textarea::placeholder {
     font-family: 'Gilroy-600';
     color: #fff;
     font-size: 68px;
-    max-width: 800px;
+    max-width: 650px;
 }
 
 .footer-description {
