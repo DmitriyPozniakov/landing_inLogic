@@ -80,12 +80,19 @@ textarea {
     color: #fff;
     font-size: 16px;
     font-family: 'Gilroy-300';
+    transition: 0.2s ease;
 
 }
 
 input:focus,
 textarea:focus {
-    border: 1px solid #cfff65;
+    outline: 1px solid #cfff65;
+}
+
+input:hover,
+textarea:hover {
+    background-color: #4B5944;
+    cursor: pointer;
 }
 
 textarea {
