@@ -2,7 +2,8 @@
     <footer>
         <div class="footer-top">
             <div class="footer-article">
-                <h2 class="footer-heading">Ready to scale your project to the next level? <span><img src="../assets/images/star_lightGreen.svg" alt=""></span></h2>
+                <h2 class="footer-heading">Ready to scale your project to the next level? <span><img
+                            src="../assets/images/star_lightGreen.svg" alt=""></span></h2>
                 <p class="footer-description">Lets' take your project to new heights, reach out and see how we can help
                     you.</p>
             </div>
@@ -13,7 +14,7 @@
                 </div>
                 <div class="form-fields">
                     <label for="fullName">Full name</label>
-                    <input type="text" class="fullName" placeholder="Your name">
+                    <input type="name" class="fullName" placeholder="Your name">
                     <label for="email">Email addres</label>
                     <input type="email" class="email" placeholder="Your email">
                     <label for="">Describe a project</label>
@@ -76,12 +77,15 @@ textarea {
     background: #313d2a;
     border: none;
     outline: none;
-    color: #686E64;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Gilroy-300';
+
 }
 
-input:focus, 
+input:focus,
 textarea:focus {
-    box-shadow: -6px 4px 80px 7px rgba(210, 238, 96, 0.20);
+    border: 1px solid #cfff65;
 }
 
 textarea {
