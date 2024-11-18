@@ -22,7 +22,8 @@ header {
     background-image: url('../assets/images/background.svg');
     background-repeat: no-repeat;
     background-size: 145%;
-    background-position: 20% 120%;
     padding-bottom: 120px; 
+    background-position: 20% 120%;/* Горизонтальное центрирование, смещение по вертикали */
+
 }
 </style>
