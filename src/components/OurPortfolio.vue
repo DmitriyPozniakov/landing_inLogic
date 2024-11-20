@@ -53,7 +53,7 @@ export default {
 .portfolio-section {
     padding: 150px 0 0 80px;
     background: #171e17;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-image: url('../assets/images/element_portfolio.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 900px) calc(50% - 65%);

@@ -88,7 +88,7 @@ export default {
     z-index: -1;
 }
 
-.offer-list::after {
+/* .offer-list::after {
     content: '';
     position: absolute;
     background-image: url('../assets/images/blob\ 2.svg');
@@ -96,8 +96,9 @@ export default {
     height: 150px;
     width: 300px;
     z-index: -1;
-    inset: 180px -50px 0 995px;
-}
+    background-position-x: 100%;
+    background-position-y: 100%;
+} */
 
 .offer-list-item {
     max-width: 345px;
