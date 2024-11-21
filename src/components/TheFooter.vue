@@ -37,8 +37,6 @@ footer {
     align-items: center;
     justify-content: center;
     background: #171e17;
-    
-
 }
 
 .footer-figure {
@@ -47,8 +45,6 @@ footer {
     margin-bottom: 30px;
     border-radius: 25px;
     background: linear-gradient(80deg, rgba(35,44,30,1) 61%, rgba(189,238,96,0.804359243697479) 100%);
-
-
 }
 
 .figure-top {
