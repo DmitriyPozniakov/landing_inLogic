@@ -61,4 +61,12 @@ export default {
 button {
   cursor: pointer;
 }
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 </style>

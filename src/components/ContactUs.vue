@@ -56,7 +56,7 @@ export default {
 
 .top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 85px;
 }
 
@@ -122,7 +122,7 @@ export default {
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 85%;
     padding: 80px 0px;
     height: 100%;
 }
