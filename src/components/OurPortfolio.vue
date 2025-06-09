@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import BasePreheading from './BasePreheading.vue';
+import BasePreheading from './base/BasePreheading.vue';
 export default {
     components: { BasePreheading },
     data() {
@@ -53,7 +53,6 @@ export default {
 .portfolio-section {
     padding: 150px 0 0 80px;
     background: #171e17;
-    /* overflow: hidden; */
     background-image: url('../assets/images/element_portfolio.svg');
     background-repeat: no-repeat;
     background-position: calc(50% + 900px) calc(50% - 65%);
@@ -90,7 +89,7 @@ export default {
 
 .portfolio-title {
     font-family: 'Gilroy-600';
-    font-size: 68px;
+    font-size: 6.8rem;
     color: #fff;
     width: 620px;
     margin-bottom: 150px;
@@ -99,20 +98,20 @@ export default {
 
 .app-title {
     font-family: 'Gilroy-600';
-    font-size: 62px;
+    font-size: 6.2rem;
     color: #fff;
     margin-bottom: 15px;
 }
 
 .app-numeric {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
 }
 
 .app-description {
     font-family: 'Gilroy-300';
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #fff;
     margin-bottom: 45px;
 }

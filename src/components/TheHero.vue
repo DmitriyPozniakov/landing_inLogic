@@ -25,14 +25,15 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue';
-import BasePreheading from './BasePreheading.vue';
+import BaseButton from './base/BaseButton.vue';
+import BasePreheading from './base/BasePreheading.vue';
 export default {
     components: { BaseButton, BasePreheading }
 }
 </script>
 
 <style scoped>
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ export default {
 
 .hero-heading {
     font-family: 'Gilroy-600';
-    font-size: 82px;
+    font-size: 8.2rem;
     line-height: 90px;
     max-width: 750px;
     text-align: center;
@@ -80,7 +81,7 @@ export default {
 
 .hero-paragraph {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #d1d1d1;
     max-width: 425px;
     text-align: center;

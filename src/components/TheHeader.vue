@@ -23,7 +23,7 @@ header {
     background-repeat: no-repeat;
     background-size: 145%;
     padding-bottom: 120px; 
-    background-position: 20% 120%;/* Горизонтальное центрирование, смещение по вертикали */
+    background-position: 20% 120%;
 
 }
 </style>

@@ -79,12 +79,12 @@ a,
 .our-location {
     font-family: 'Gilroy-300';
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .copyright {
     font-family: 'Gilroy-300';
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 </style>

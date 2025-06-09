@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import BasePreheading from './BasePreheading.vue';
+import BasePreheading from './base/BasePreheading.vue';
 export default {
     components: { BasePreheading },
     data() {
@@ -44,11 +44,6 @@ export default {
             ],
         }
     },
-    methods: {
-        // amountOfStars(mark) {
-        //     const stars = Math.round(mark); 
-        // }
-    }
 }
 </script>
 
@@ -67,7 +62,7 @@ export default {
 
 .review-heading {
     font-family: 'Gilroy-600';
-    font-size: 68px;
+    font-size: 6.8rem;
     color: #000;
     position: relative;
     margin-bottom: 65px;
@@ -114,18 +109,18 @@ export default {
 
 .review-company {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 20px;
 }
 
 .review-description {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-bottom: 45px;
 }
 
 .review-person {
     font-family: 'Gilroy-600';
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 </style>

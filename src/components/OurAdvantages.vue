@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import BasePreheading from './BasePreheading.vue';
+import BasePreheading from './base/BasePreheading.vue';
 export default {
     components: { BasePreheading },
     data() {
@@ -53,7 +53,7 @@ export default {
 .advantages-title {
     font-family: 'Gilroy-600';
     color: #fff;
-    font-size: 68px;
+    font-size: 6.8rem;
     max-width: 885px;
     margin-top: 65px;
     margin-bottom: 110px;
@@ -74,7 +74,7 @@ export default {
 
 .advantage-description {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
 }
 

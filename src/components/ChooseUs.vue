@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import BasePreheading from './BasePreheading.vue';
+import BasePreheading from './base/BasePreheading.vue';
 export default {
     components: { BasePreheading }
 }
@@ -51,13 +51,13 @@ export default {
 
 .heading {
     font-family: 'Gilroy-600';
-    font-size: 68px;
+    font-size: 6.8rem;
     color: #fff;
 }
 
 .article {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #fff;
     max-width: 465px;
 }
@@ -74,12 +74,12 @@ export default {
 .numeric-item strong {
     color: #fff;
     font-family: 'Gilroy-600';
-    font-size: 120px;    
+    font-size: 12rem;    
 }
 
 .numeric-item p {
     color: #dbdbdb;
     font-family: 'Gilroy-300';
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 </style>

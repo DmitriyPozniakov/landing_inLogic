@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import BasePreheading from './BasePreheading.vue';
+import BasePreheading from './base/BasePreheading.vue';
 export default {
     components: { BasePreheading },
     data() {
@@ -53,7 +53,7 @@ export default {
 
 .services-heading {
     font-family: 'Gilroy-600';
-    font-size: 68px;
+    font-size: 6.8rem;
     margin-bottom: 40px;
     position: relative;
 }
@@ -87,18 +87,6 @@ export default {
     inset: -150px 0 0 -145px;
     z-index: -1;
 }
-
-/* .offer-list::after {
-    content: '';
-    position: absolute;
-    background-image: url('../assets/images/blob\ 2.svg');
-    background-repeat: no-repeat;
-    height: 150px;
-    width: 300px;
-    z-index: -1;
-    background-position-x: 100%;
-    background-position-y: 100%;
-} */
 
 .offer-list-item {
     max-width: 345px;
@@ -141,6 +129,6 @@ export default {
 .offer-description {
     font-family: 'Gilroy-300';
     color: #434343;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 </style>

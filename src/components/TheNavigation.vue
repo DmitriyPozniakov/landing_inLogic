@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue';
+import BaseButton from './base/BaseButton.vue';
 export default {
     components: { BaseButton }
 }
@@ -38,7 +38,7 @@ nav {
 .nav-link {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Gilroy-300';
 }
 </style>

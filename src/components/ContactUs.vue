@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue';
+import BaseButton from './base/BaseButton.vue';
 export default {
     components: { BaseButton }
 }
@@ -80,7 +80,7 @@ export default {
 
 .review-text {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #D8DADF
 }
 
@@ -151,7 +151,7 @@ textarea {
     border: none;
     outline: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-family: 'Gilroy-300';
     transition: 0.2s ease;
 
@@ -176,7 +176,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #686E64;
 }
 
@@ -191,28 +191,28 @@ textarea::placeholder {
 .form-text {
     max-width: 315px;
     font-family: 'Gilroy-300';
-    font-size: 16px;
+    font-size: 1.6px;
     color: #d3d3d3;
     text-align: center;
 }
 
 .form-title {
     font-family: 'Gilroy-600';
-    font-size: 32px;
+    font-size: 3.2rem;
     color: #fff;
 }
 
 .heading {
     font-family: 'Gilroy-600';
     color: #fff;
-    font-size: 68px;
+    font-size: 6.8rem;
     max-width: 650px;
 }
 
 .description {
     font-family: 'Gilroy-300';
     color: #e0e0e0;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .form-fields {
@@ -224,6 +224,6 @@ textarea::placeholder {
 label {
     font-family: 'Gilroy-500';
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 </style>

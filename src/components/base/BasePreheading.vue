@@ -29,5 +29,6 @@ export default {
     font-family: 'Gilroy-300';
     text-align: center;
     display: inline-block;
+    font-size: 2rem;
 }
 </style>
